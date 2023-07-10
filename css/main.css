@@ -1,0 +1,36 @@
+.contenido{
+    margin: 50px;
+    background: white;
+    border:5px solid black;
+    border-radius: 30px; 
+    width: 600px;
+    height: 350px;    
+}
+
+.title {
+    font-size: 160px;
+    text-align: center;
+    margin: 0%;
+}
+
+
+button {
+    background: white;
+    border:2px solid black; 
+    border-radius: 25%; 
+    width: 100px;
+    height: 50px;
+    margin: center;
+    flex-direction: flex;
+}
+
+button:hover {
+    background: gray;
+}
+
+.buttonContainer {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+}
